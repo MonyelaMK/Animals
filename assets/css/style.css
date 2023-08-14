@@ -387,7 +387,7 @@ header {
     max-width: 1100px;
     overflow: auto;
     padding: 20px 40px;
-    background-color: rgb(118, 234, 255);
+    background-color: var(--skyblue-color);
     /* background-color: rgb(118, 234, 255); */
     border-radius: 10px;
 }
