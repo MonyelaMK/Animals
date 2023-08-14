@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="/assets/css/utilities.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="/assets/css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="header contact-head">
+        <nav class="navbar flex bg-middle-black pd-1">
+            <a href="/index.html">
+                <div class="logo">
+                    <h1 class="text-black">ANIMAL</h1>
+                    <h5 class="text-orange">GEOGRAPHIC</h5>
+                </div>
+            </a>
+            <div class="menu">
+                <ul class="flex pt-1">
+                    <li><a href="/index.html" class="text-white pd-3">Home</a></li>
+                    <li><a href="services.html" class="text-white pd-3">Services</a></li>
+                    <li><a href="about.html" class="text-white pd-3">About</a></li>
+                    <li><a href="contact.html" class="current text-white pd-3">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="sidebar bg-middle-black">
+                <div class="sidebar-header">
+                    <a href="/index.html" class="side-logo">
+                        <h1 class="text-black">ANIMAL</h1>
+                        <h5 class="text-orange">GEOGRAPHIC</h5>
+                    </a>
+                    <i class="fa fa-times text-orange pd-3" aria-hidden="true"></i>
+                </div>
+                <ul class="side-menu pt-1">
+                    <li><a href="/index.html" class="text-white pd-3">Home</a></li>
+                    <li><a href="services.html" class="text-white pd-3">Services</a></li>
+                    <li><a href="about.html" class="text-white pd-3">About</a></li>
+                    <li><a href="contact.html" class="current text-white pd-3">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-icon">
+                <i class="fa fa-bars text-white pd-3" aria-hidden="true"></i>
+            </div>
+        </nav>
+        <div class="showcase">
+            <img class="bg-item background-img"
+                src="/assets/media/img/contact/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg" alt="">
+            <div class="content">
+                <p class="h1"><span class="text-orange">Trusted Advisor In Protecting You</span></p>
+                <!-- <p class="text-alice">IS AT THE CORE OF ALL OUR DELIVERABLES</p> -->
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="contact-form" class="py-3">
+            <div class="container-c">
+                <h1 class="l-heading"><span class="text-primary">Conatct</span> Us</h1>
+                <p>Please fill out the form bellow to contact us</p>
+                <!-- <form action="process.php" method="POST"> -->
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter the name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter email address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone" id="phone" placeholder="Enter Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Enter the message here!!"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-page-js">Submit</button>
+                    <!-- <a href="" class="btn btn-primary btn-page-js"><span>Submit</span></a> -->
+                </form>
+            </div>
+        </section>
+        <section class="c-section first-section .flex-columns">
+            <div class="container header-details section-align">
+                <h1 class="text-orange">TENDERS / BID ENQUIRIES</h1>
+                <div>
+                    <h2 class="text-blue">Kindly send any tender or bid related documentation and queries to:</h2>
+                </div>
+            </div>
+            <div class="container card-wrap grid grid-2">
+                <div class="details text-gray">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tenetur optio enim
+                        molestiae vitae velit quas, aliquid repudiandae adipisci odit sit praesentium, perspiciatis
+                        accusantium, tempora pariatur nam eius illum nisi. Molestiae totam obcaecati nostrum ex quasi
+                        pariatur, perspiciatis sed accusantium accusamus quidem sequi voluptates, error nobis, earum
+                        aliquid
+                        quibusdam quo.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex impedit nostrum optio autem
+                        nemo molestiae? Voluptate, incidunt? Dignissimos perspiciatis eligendi facilis placeat quasi
+                        debitis
+                        nisi nostrum non tenetur delectus, exercitationem libero recusandae possimus consequatur,
+                        accusantium, eveniet dicta repellat quae! Quas hic commodi culpa labore similique incidunt
+                        consectetur minus dolorum eaque.</p>
+                    <a href="" class="btn btn-pm"><span>Read More</span></a>
+                </div>
+                <div class="image">
+                    <img src="/assets/media/img/contact/contact2.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="last-section">
+            <div class="logo last-logo">
+                <a href="/index.html">
+                    <h1 class="text-black">ANIMAL</h1>
+                    <h5 class="text-orange">GEOGRAPHIC</h5>
+                </a>
+            </div>
+            <div>
+                <div class="contact">
+                    <p class="head"><i class="fa-solid fa-phone social-icon"></i>Contact Us</p>
+                    <h1 class="size">RSA 0710161880 | email@company.co.za</h1>
+                    <p>Mon-Fri | 8am-4pm | CAT</p>
+                </div>
+                <div class="social">
+                    <p class="head"><i class="fa-solid fa-person-walking social-icon"></i>Follow Us</p>
+                    <p class="social-items"><i class="fa-brands fa-square-facebook social-icon"></i>facebook</p>
+                    <p class="social-items"><i class="fa-brands fa-instagram social-icon"></i>Instagram</p>
+                    <p class="social-items"><i class="fa-brands fa-twitter social-icon"></i>Twitter</p>
+                </div>
+            </div>
+            <div class="collection">
+                <div class="left">
+                    <div class="coll">
+                        <p>Collection</p>
+                    </div>
+                    <div class="list">
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="coll">
+                        <p>Collection</p>
+                    </div>
+                    <div class="list">
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                        <a href="">
+                            <p>Name of the coll</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <p>Copyright &#169 2023 Animal Geography | All rights reserved | Website by Blueshack</p>
+        </div>
+    </footer>
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
